@@ -1,6 +1,6 @@
 ## 🔥 React Native Course Content
 
-Thank you so much for passing by, this repo related to ITI 3-Months Diploma React Native course to keep track of every progress we will do throughout the 3 days of the course 😊.
+Thank you so much for passing by, this repo related to ITI 9-Months Diploma React Native course to keep track of every progress we will do throughout the 3 days of the course 😊.
 
 ### 👨‍💻 Course Presentation
 
@@ -17,7 +17,7 @@ You can find course presentation [here](https://bit.ly/3C1HQ8h)
 - Secondly, send the created repo to the mail mentioned below **using the mentioned format below**.
 - Thirdly, push the new added content everyday and I will pull the changes and review every day delivery.
 
-[‬‏iti.reactnative@gmail.com](mailto:‬‏iti.reactnative@gmail.com)
+[iti.reactnative@gmail.com](mailto:iti.reactnative@gmail.com)
 
 ---
 
