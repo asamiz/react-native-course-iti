@@ -23,7 +23,7 @@ You can find course presentation [here](https://bit.ly/3C1HQ8h)
 
 **IMPORTANT:** Email subject should be in this format:
 
-'YOUR_NAME' | ITI-9-Months-Minoufya
+'YOUR_NAME' | ITI-GIS-Smart
 
 ## ✔️ Feedback is always appreciable
 
