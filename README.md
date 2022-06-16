@@ -1,6 +1,6 @@
 ## 🔥 React Native Course Content
 
-Thank you so much for passing by, this repo related to ITI 9-Months Diploma React Native course to keep track of every progress we will do throughout the 3 days of the course 😊.
+Thank you so much for passing by, this repo related to ITI 9-Months Diploma React Native course to keep track of every progress we will do throughout the days of the course 😊.
 
 ### 👨‍💻 Course Presentation
 
