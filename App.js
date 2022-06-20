@@ -1,5 +1,4 @@
 import { StatusBar } from "expo-status-bar";
-import SearchScreen from "./src/screens/Search";
 import AppLoading from "expo-app-loading";
 import {
   useFonts,
@@ -8,6 +7,11 @@ import {
   Montserrat_500Medium,
   Montserrat_700Bold,
 } from "@expo-google-fonts/montserrat";
+import RootNavigator from "./src/navigation";
+import { SafeAreaProvider } from "react-native-safe-area-context";
+import { PersistGate } from "redux-persist/integration/react";
+import { Provider } from "react-redux";
+import { persistor, store } from "./src/store";
 
 export default function App() {
   let [fontsLoaded] = useFonts({
@@ -22,9 +26,13 @@ export default function App() {
   }
 
   return (
-    <>
-      <SearchScreen />
-      <StatusBar style="light" />
-    </>
+    <Provider store={store}>
+      <PersistGate persistor={persistor}>
+        <SafeAreaProvider>
+          <StatusBar style="light" />
+          <RootNavigator />
+        </SafeAreaProvider>
+      </PersistGate>
+    </Provider>
   );
 }

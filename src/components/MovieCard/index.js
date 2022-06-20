@@ -1,9 +1,9 @@
-import { View, Text, Image } from "react-native";
+import { View, Text, Image, Pressable } from "react-native";
 import styles from "./styles";
 
-export const MovieCard = ({ data }) => {
+export const MovieCard = ({ data, onPress }) => {
   return (
-    <View style={styles.container}>
+    <Pressable style={styles.container} onPress={onPress}>
       <View style={styles.leftView}></View>
       <View style={styles.rightView}>
         <Text style={styles.movieName}>{data.Title}</Text>
@@ -19,6 +19,6 @@ export const MovieCard = ({ data }) => {
               }
         }
       />
-    </View>
+    </Pressable>
   );
 };

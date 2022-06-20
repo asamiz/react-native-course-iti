@@ -3,7 +3,7 @@ import { COLORS } from "../../theme/colors";
 
 export default StyleSheet.create({
   container: {
-    backgroundColor: COLORS.oxfordBlue,
+    // backgroundColor: COLORS.oxfordBlue,
     flex: 1,
   },
   searchBtn: {
